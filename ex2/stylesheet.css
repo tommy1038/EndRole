@@ -86,11 +86,13 @@ footer{
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 55px;
 }
 
 footer h2{
   font-size: 36px;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .textitem{
@@ -112,6 +114,20 @@ input {
 }
 input:focus {
   border-color: #83c6d2;
+}
+
+.price{
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  
+  border-top: 1px solid #D6D5D5;
+  border-left: 1px solid #D6D5D5;
+  border-right: 1px solid #D6D5D5;
+  
+  border-radius: 30px 30px 0 0 / 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0 / 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0 / 30px 30px 0 0;
 }
 
 
